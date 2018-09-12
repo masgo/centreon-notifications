@@ -94,7 +94,7 @@
     $body .= "<tr bgcolor=#eeeeee><td>Total Warnings: </td><td> $f_totwarnings</td></tr>\r\n";
     $body .= "<tr bgcolor=#fefefe><td>Total Critical: </td><td> $f_totcritical</td></tr>\r\n";
     $body .= "<tr bgcolor=#eeeeee><td>Total Unknowns: </td><td> $f_totunknowns</td></tr>\r\n";
-    $body .= "</body></html> \r\n";
+    $body .= "</table></table></body></html> \r\n";
 
     $headers  = "From: $from\r\n";
     $headers .= "Content-type: text/html\r\n";
